@@ -1,4 +1,4 @@
-# Servicio Monitoreo Colas
+# Servicio Monitoreo Colas V1.0
 El servicio se encarga de notificar mediante correo electronico el encolamento de mensajes en una determinada cola AMQ.
 
 ## Prerequisitos
@@ -37,3 +37,17 @@ datos.mail.subject=<Asunto del e-mail>
 datos.mail.canal=<Canal solicitado por el servicio>
 datos.mail.plantilla=<Plantilla del e-mail>
 ```
+
+### EndPoint de la ruta camel
+
+- Cola AMQ: AMQ.FAULT
+- Servicio de envio de correo electronico: http://10.20.74.63:7801/ServicioEnvioEmail
+
+## Versionamiento
+El codigo fuente se encuentra en el siguiente repositorio git
+
+```
+Repogit
+```
+
+
